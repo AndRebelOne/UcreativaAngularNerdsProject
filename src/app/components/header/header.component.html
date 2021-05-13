@@ -1,0 +1,27 @@
+<header class="header">
+
+    <div class="text-container">
+        <div class="text">
+            <h2> Welcome to </h2>
+            <h1> AngularNerds community </h1>
+        </div>
+    </div>
+
+</header>
+
+<div class="btn-group btn-group-toggle" data-toggle="buttons">
+    <label class="btn btn-info">
+        <input type="radio" name="options" id="option1" autocomplete="off" routerLink='/home'>Home
+    </label>
+    <label class="btn btn-info">
+        <input type="radio" name="options" id="option2" autocomplete="off" routerLink='/all-posts'>All posts
+    </label>
+    <label class="btn btn-info">
+        <input type="radio" name="options" id="option3" autocomplete="off" routerLink='/users'>Users
+    </label>
+    <label class="btn btn-info">
+        <input type="radio" name="options" id="option4" autocomplete="off" routerLink='/create-post'>Create new post
+    </label>
+</div>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,30 @@
+.card {
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 250px;
+    height: 205px;
+    border-radius: 10px 0 0 10px;
+}
+
+.info-posts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: -30px;
+}
+
+.card-text i {
+    margin-right: 5px;
+}
+
+h2 {
+    margin: auto;
+    border-bottom: 1px solid #000;
+    width: 30%;
+    margin-top: 50px;
+}

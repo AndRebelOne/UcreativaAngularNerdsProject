@@ -1,0 +1,36 @@
+<div id="container">
+    <div id="card">
+        <img src="../../../assets/image.jpg" class="rounded-circle" alt="...">
+        <div id="card-body">
+            <h5><i class="fas fa-user"></i>{{users?.username}}</h5>
+            <div id="info">
+                <p><i class="fas fa-signature"></i>Name: <label for="">{{users?.name}}</label></p>
+                <p><i class="fas fa-portrait"></i>User ID: <label for="">{{users?.id}}</label></p>
+                <p><i class="far fa-envelope"></i>Email: <label for="">{{users?.email}}</label></p>
+                <p><i class="fas fa-phone"></i>Phone: <label for="">{{users?.phone}}</label></p>
+                <p><i class="fas fa-globe"></i>Website: <label for="">{{users?.website}}</label></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2>Users Posts</h2>
+
+<div *ngFor="let post of posts; let i=index">
+    <div class="card mb-3" style="max-width: 800px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="../../../assets/cards.jpg" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">{{post.title}}</h5>
+                    <p class="card-text">{{post.body}}</p>
+                    <div class="info-posts">
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

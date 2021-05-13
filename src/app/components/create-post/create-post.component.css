@@ -1,0 +1,38 @@
+.write-post {
+    width: 50%;
+    margin: auto;
+}
+
+.form-control {
+    height: 200px;
+}
+
+.form-label {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form-select {
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 30%;
+}
+
+input {
+    display: block;
+    width: 500px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.form-label-title {
+    margin-top: 50px;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
